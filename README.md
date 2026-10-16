@@ -62,3 +62,5 @@ $env:LANSHARE_TEST_EXE = (Resolve-Path 'dist\LANShare\LANShare.exe').Path
 停止或关闭 GUI 时通过管道关闭 FTP/SFTP 后台进程；父进程异常终止也会触发后台退出。SMB 属于 Windows 原生共享，断电或强制终止后可能保留，由同目录恢复记录管理，恢复期间禁止启动其他协议。SMB 文件连接日志通过系统打开文件列表采样，短连接可能漏采。NTFS 原有权限不作修改。
 
 Windows 未签名 EXE 可能触发 SmartScreen。已在当前 Win10 x64 环境完成构建与本地验证；用户已反馈 FTP、SFTP、SMB 三种协议正常工作。尚无另一台实体电脑或 Win11 上的专项验证记录。
+## 备注
+已经在另外一台电脑试验，可以正常使用，建议将exe放在一个文件内使用，因为会生成相关日志文件。

@@ -1,0 +1,4 @@
+pyftpdlib==2.2.0
+paramiko==5.0.0
+psutil==7.2.2
+pyinstaller==6.22.3

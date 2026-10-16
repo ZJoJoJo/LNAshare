@@ -1,0 +1,12 @@
+LANShare uses Python 3.13, Tcl/Tk, pyftpdlib, Paramiko, psutil,
+cryptography, bcrypt, PyNaCl, cffi, pycparser, invoke, pyasyncore,
+pyasynchat, and PyInstaller runtime components.
+
+Upstream license texts and dependency metadata are distributed in
+third-party-licenses/. Bundled packages also retain upstream package data.
+
+Protocol/API references:
+https://pyftpdlib.readthedocs.io/en/latest/api.html
+https://docs.paramiko.org/en/latest/api/sftp.html
+https://learn.microsoft.com/en-us/powershell/module/smbshare/new-smbshare
+https://learn.microsoft.com/en-us/powershell/module/smbshare/remove-smbshare
